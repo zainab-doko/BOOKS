@@ -1,0 +1,194 @@
+body {
+  background-color: #f2f2f2; /* لون الخلفية الأساسي */
+  font-family: 'Roboto', sans-serif; /* نوع الخط */
+  direction: rtl; /* الكتابة من اليمين إلى اليسار */
+}
+
+header {
+background-color: #4b8a7f; /* لون الخلفية للهيدر */
+color: #fff; /* لون النص الأبيض */
+padding: 20px; /* مسافة داخلية */
+text-align: center; /* توسيط النص */
+}
+
+header h1 {
+color: #ddd; /* لون النص داخل الهيدر */
+font-size: 2em; /* حجم النص */
+margin: 0; /* إزالة المسافات الزائدة */
+}
+
+#showForm {
+  background-color: #4b8a7f; /* لون الخلفية */
+  border: none; /* إزالة الإطار */
+  color: white; /* لون النص */
+  padding: 15px 32px; /* مسافة داخلية حول النص */
+  text-align: center; /* توسيط النص */
+  text-decoration: none; /* إزالة الزخرفة */
+  display: inline-block; /* عرض كعنصر خطي */
+  font-size: 16px; /* حجم النص */
+  margin: 4px 2px; /* مسافة خارجية */
+  cursor: pointer; /* تغيير شكل المؤشر */
+  opacity: 0.5; /* شفافية الزر */
+  transition: opacity 0.3s ease; /* تأثير الشفافية عند التحريك */
+}
+
+#showForm:hover {
+  opacity: 1; /* الشفافية الكاملة عند تمرير المؤشر */
+}
+
+#showForm:disabled {
+  cursor: not-allowed; /* تغيير المؤشر عند تعطيل الزر */
+}
+
+/* تنسيق شريط التنقل */
+nav ul {
+list-style-type: none; /* إزالة النقاط */
+margin: 10px 0 0; /* مسافة خارجية بين الشريط والهيدر */
+padding: 0; /* إزالة الحواف */
+text-align: center; /* توسيط النص */
+}
+
+nav ul li {
+display: inline-block; /* جعل العناصر في خط واحد */
+margin: 0 20px; /* مسافة بين الروابط */
+}
+
+nav ul li a {
+color: #fff; /* لون النص في الروابط */
+text-decoration: none; /* إزالة الخط السفلي */
+font-size: 1.2em; /* حجم النص */
+padding: 5px 10px; /* مسافات داخل الروابط */
+transition: background-color 0.3s ease; /* تأثير تغيير اللون */
+}
+
+.a td {
+border: 0px; /* إزالة الحدود من الخلايا */
+}
+
+img {
+width: 300px; /* عرض الصورة */
+height: 300px; /* ارتفاع الصورة */
+}
+
+table {
+  width: 70%; /* عرض الجدول */
+  background-color: #fff; /* لون الخلفية للجدول */
+  border-collapse: collapse; /* دمج الحدود */
+}
+
+th, td {
+  padding: 15px; /* مسافة داخلية للخلايا */
+  border: 1px solid #ddd; 
+  text-align: right; /* النص من اليمين */
+}
+
+th {
+  background-color: #4b8a7f; /* لون خلفية العناوين */
+  color: #fff; /* لون النص الأبيض */
+}
+
+.button1 {
+  background-color: #1d3d38; /* لون الخلفية للزر */
+  color: white; /* لون النص الأبيض */
+  padding: 15px 32px; /* مسافة داخلية */
+  text-align: center; /* توسيط النص */
+  text-decoration: none; /* إزالة الزخرفة */
+  display: inline-block; /* عرض كعنصر خطي */
+  font-size: 16px; /* حجم النص */
+  margin: 4px 2px; /* مسافة خارجية */
+  cursor: pointer; /* تغيير شكل المؤشر */
+  border-radius: 12px; /* زوايا مستديرة */
+}
+
+.button1:hover {
+  background-color: #04312a; /* تغيير اللون عند تمرير المؤشر */
+}
+
+h1, h2 {
+  color: #131212; /* لون النص */
+  text-align: center; /* توسيط النص */
+  margin-top: 50px; /* مسافة خارجية من الأعلى */
+}
+
+p {
+  color: #131212; /* لون النص */
+  text-align: center; /* توسيط النص */
+  margin-top: 30px; /* مسافة خارجية من الأعلى */
+  font-size: 20px; /* حجم النص */
+  line-height: 2; /* ارتفاع السطر */
+}
+
+#myForm {
+  display: block; 
+  width: 50%; /* عرض النموذج */
+  margin: 0 auto; /* توسيط النموذج */
+  padding: 20px; /* مسافة داخلية */
+  border: 1px solid #ccc; /* إطار حول النموذج */
+  border-radius: 5px; /* زوايا مستديرة */
+  background-color: #f9f9f9; /* لون الخلفية */
+}
+
+/* تنسيق عناصر النموذج */
+#myForm label {
+  display: block; /* جعل العلامات كتلة */
+  margin-top: 20px; /* مسافة من الأعلى */
+  font-weight: bold; /* جعل النص غامق */
+}
+
+#myForm input[type="text"] {
+  width: 100%; /* عرض الإدخال */
+  padding: 10px; /* مسافة داخلية */
+  margin-top: 5px; /* مسافة من الأعلى */
+  border: 1px solid #ccc; /* إطار الإدخال */
+  border-radius: 5px; /* زوايا مستديرة */
+}
+
+/* الأزرار داخل النموذج */
+#myForm button[name="submit"], #myForm input[type="button"] {
+  background-color: #04312a; /* لون الخلفية */
+  color: white; /* لون النص */
+  padding: 10px 20px; /* مسافة داخلية */
+  border: none; /* إزالة الإطار */
+  border-radius: 5px; /* زوايا مستديرة */
+  cursor: pointer; /* شكل المؤشر */
+  margin-top: 20px; /* مسافة من الأعلى */
+}
+
+/* تأثير عند التمرير فوق الأزرار */
+#myForm button[name="submit"]:hover, 
+#myForm input[type="button"]:hover {
+  background-color: #031c13; /* لون أغمق */
+}
+
+/* تأثير التركيز على الإدخال */
+#myForm input[type="text"]:focus {
+  outline: none; /* إزالة الإطار الافتراضي */
+  box-shadow: 0 0 5px #04312a; /* ظل أخضر */
+}
+
+
+.container {
+  display: flex; 
+  justify-content: center; 
+  align-items: flex-start; /* محاذاة العناصر من الأعلى */
+  gap: 1px; /* مسافة بين العناصر */
+}
+
+.side-images {
+  display: flex; /* عرض ككتلة */
+  flex-direction: column; /* ترتيب الصور عموديًا */
+  gap: 20px; /* مسافة بين الصور */
+  margin: 30px; /* مسافة حول الحاوية */
+}
+
+.side-images img {
+  width: 150px; /* عرض الصور الجانبية */
+  height: auto; /* الارتفاع تلقائي */
+  border: 1px solid #ddd; /* إطار الصور */
+  border-radius: 8px; /* زوايا مستديرة */
+}
+
+.table-container {
+  flex: 5 0 auto; /* مرونة  */
+  padding: 40px; /* مسافة داخلية */
+}
